@@ -41,7 +41,7 @@ EOL;
         <h1>Twilio Test<img src="http://2.bp.blogspot.com/-1DVfCJhxpUY/UrlnDdbLpZI/AAAAAAAAcM0/tuotN_YtHVY/s800/denwa_business_woman.png" height=100></h1>
         <h2>Call</h2>
         <div class="form-group">
-          <form action="/index.php" method="post">
+          <form action="/call.php" method="post">
             <label for="tel">Tel:</label><input class="form-control"  type="number" id="tel" name="tel" value="81"><br>
             <label for="msg">Msg:</label><input class="form-control"  type="text"   id="msg" name="msg" size=80 ><br>
             <input  class="btn btn-primary" type="submit" value="Call">
